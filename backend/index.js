@@ -14,7 +14,7 @@ const server = http.createServer(app);
 // Configure Socket.io with CORS settings
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // The origin of your React frontend
+    origin: "https://polling-system-ochre-eight.vercel.app", // The origin of your React frontend
     methods: ["GET", "POST"]
   }
 });
